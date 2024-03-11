@@ -18,8 +18,9 @@ Para comenzar con este proyecto, asegúrate de tener instalado Node.js, npm y Fi
 1. Clona este repositorio:
 
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
-   cd [NOMBRE_DEL_REPOSITORIO]
+   git clone https://github.com/agimenez122/firebase-function-base.git
+   cd firebase-function-base
+
 Instala las dependencias:
 
 bash
@@ -51,7 +52,7 @@ Para invocar tu función, simplemente realiza una solicitud HTTP a la URL propor
 
 bash
 Copy code
-curl [URL_DE_TU_FUNCION]
+curl https://xxxxxxxxxxxxxxxxx.cloudfunctions.net/helloWorld
 Contribuciones
 Las contribuciones son bienvenidas. Si tienes alguna mejora o corrección, siéntete libre de clonar el repositorio y abrir un pull request.
 
